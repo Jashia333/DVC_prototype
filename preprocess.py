@@ -5,7 +5,7 @@ import pandas as pd
 df = pd.read_csv("data/raw_data.csv")
 
 # New record to add
-new_record = {"name": "David", "age": 40, "city": "Houston"}
+new_record = {"name": "Maahir", "age": 24, "city": "boca raton"}
 
 # Append new record
 df = pd.concat([df, pd.DataFrame([new_record])], ignore_index=True)
